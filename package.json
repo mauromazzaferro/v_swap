@@ -1,0 +1,41 @@
+{
+  "name": "jupiter-swap-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@jup-ag/api": "^6.0.32",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.98.0",
+    "decimal.js": "^10.4.3",
+    "next": "15.1.0",
+    "node-fetch": "^2.7.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/w3c-web-usb": "^1.0.10",
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^7.1.2",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.0",
+    "postcss": "^8",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

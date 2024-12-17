@@ -1,0 +1,1 @@
+declare module 'w3c-web-usb' 
