@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 // Jupiter's price API endpoint
-const JUPITER_PRICE_API = 'https://price.jup.ag/v4'
+const JUPITER_PRICE_API = 'https://api.jup.ag/price/v2'
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
